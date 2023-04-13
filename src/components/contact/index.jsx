@@ -5,14 +5,11 @@ const Contact = () => {
   return (
     <body>
       <section class="navbar-section">
-        <h1 class="navbar-heading">
-          Anant Mishra <span>/ Product Manager</span>
-        </h1>
+        <a class="navbar-heading" href="/">
+          Anant Mishra
+        </a>
         <div>
           <ul>
-            <li>
-              <a href="../index.html">About Me</a>
-            </li>
             <li>
               <a href="../resume/">Resume</a>
             </li>
@@ -20,7 +17,12 @@ const Contact = () => {
               <a href="../projects/">Projects</a>
             </li>
             <li>
-              <a href="">Blogs</a>
+              <a href="https://medium.com/@mishraanant" target="_blank">
+                Blogs
+              </a>
+            </li>
+            <li>
+              <a href="./">Playground</a>
             </li>
             <li>
               <a href="#" class="current">

@@ -5,16 +5,11 @@ const Home = () => {
   return (
     <div>
       <section className="navbar-section">
-        <h1 className="navbar-heading">
-          Anant Mishra <span>/ Product Manager</span>
-        </h1>
+        <a class="navbar-heading" href="/">
+          Anant Mishra
+        </a>
         <div>
           <ul>
-            <li>
-              <a href="/" className="current">
-                About Me
-              </a>
-            </li>
             <li>
               <a href="./resume/">Resume</a>
             </li>
@@ -22,7 +17,12 @@ const Home = () => {
               <a href="./projects/">Projects</a>
             </li>
             <li>
-              <a href="">Blogs</a>
+              <a href="https://medium.com/@mishraanant" target="_blank">
+                Blogs
+              </a>
+            </li>
+            <li>
+              <a href="./">Playground</a>
             </li>
             <li>
               <a href="./contact/">Contact</a>
@@ -42,11 +42,13 @@ const Home = () => {
 
       <section className="about-section">
         <div className="about-content-container">
-          <div className="about-content-left">
-            <div className="image-container"></div>
-            <h1>Anant Mishra</h1>
-            <div className="about-content-line"></div>
-            <p>PRODUCT MANAGER</p>
+          <div>
+            <div className="about-content-left">
+              <div className="image-container"></div>
+              <h1>Anant Mishra</h1>
+              <div className="about-content-line"></div>
+              <p>PRODUCT MANAGER</p>
+            </div>
             <div className="about-content-socials">
               <a href="mailto: mishraanant1526@gmail.com">
                 <img

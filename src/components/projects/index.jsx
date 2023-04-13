@@ -5,14 +5,11 @@ const Projects = () => {
   return (
     <div>
       <section className="navbar-section">
-        <h1 className="navbar-heading">
-          Anant Mishra <span>/ Product Manager</span>
-        </h1>
+        <a class="navbar-heading" href="/">
+          Anant Mishra
+        </a>
         <div>
           <ul>
-            <li>
-              <a href="../index.html">About Me</a>
-            </li>
             <li>
               <a href="../resume/">Resume</a>
             </li>
@@ -22,7 +19,12 @@ const Projects = () => {
               </a>
             </li>
             <li>
-              <a href="">Blogs</a>
+              <a href="./">Playground</a>
+            </li>
+            <li>
+              <a href="https://medium.com/@mishraanant" target="_blank">
+                Blogs
+              </a>
             </li>
             <li>
               <a href="../contact/">Contact</a>

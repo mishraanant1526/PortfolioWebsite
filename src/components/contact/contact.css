@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
 body {
   font-family: Montserrat;
@@ -7,7 +7,7 @@ body {
   background-color: #e6dbcf;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -16,7 +16,6 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
   position: sticky;
   top: 0;
   left: 0;
@@ -39,9 +38,10 @@ a{
   margin-right: 3%;
 }
 
-.navbar-heading > span {
-  font-weight: 200;
-  font-size: 18px;
+.navbar-heading {
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .navbar-heading:before {
@@ -60,13 +60,13 @@ a{
 }
 
 .current {
-color: #0135ab;
+  color: #0135ab;
 }
 
 .navbar-section > div > ul > li {
-margin-right: 20px;
-font-size: 17px;
-text-transform: uppercase;
+  margin-right: 20px;
+  font-size: 17px;
+  text-transform: uppercase;
 }
 
 .contact-section {
@@ -79,8 +79,7 @@ text-transform: uppercase;
 }
 
 .contact-heading {
-    font-size: 40px;
-    
+  font-size: 40px;
 }
 
 .contact-heading::before {
@@ -137,59 +136,56 @@ textarea {
 .contact-form label {
   display: flex;
   flex-direction: column;
-  
+
   font-size: 15px;
   margin: 25px 0px;
 }
 
-#submit-button{
-    width: 25%;
-    background-color: #0135ab;
-    color: white;
-    
-    border: 2px solid #0135ab;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 20px;
-    transition: all 0.2s linear;
-    margin-bottom: 20%;
+#submit-button {
+  width: 25%;
+  background-color: #0135ab;
+  color: white;
+
+  border: 2px solid #0135ab;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 0.2s linear;
+  margin-bottom: 20%;
 }
 
-#submit-button:hover{
-    border: 2px solid #0135ab;
-    color: black;
-    background-color: white;
+#submit-button:hover {
+  border: 2px solid #0135ab;
+  color: black;
+  background-color: white;
 }
-
 
 /* footer Styles */
 .footer-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2% 3% 4%;
-    background-color: white;
-  }
-  
-  .copyright {
-    margin: 0px;
-    
-  }
-  
-  .footer-inner-container {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .footer-inner-element {
-    margin-left: 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .footer-inner-element p {
-    margin: 5px 0px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 3% 4%;
+  background-color: white;
+}
+
+.copyright {
+  margin: 0px;
+}
+
+.footer-inner-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-inner-element {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-inner-element p {
+  margin: 5px 0px;
+}

@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
 body {
   font-family: Montserrat;
   margin: 0px;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -118,9 +118,7 @@ a{
   align-items: center;
 }
 
-.about-content-left,
 .about-content-right {
-  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,16 +126,21 @@ a{
 }
 
 .about-content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   background-color: #e6dfd9;
   border: 1px solid #eee6e3;
   box-shadow: 0px 5px 10px 4px rgba(0, 0, 0, 0.4);
-  padding: 40px 0px 0px;
+  padding: 80px;
+  padding-bottom: 0px;
 }
 
 .image-container {
   width: 205px;
   height: 205px;
-  background-image: url('../assets/Profile.jpg');
+  background-image: url("../assets/Profile.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -175,7 +178,7 @@ a{
 
 .about-content-left p {
   font-size: 18px;
-
+  text-align: center;
   letter-spacing: 4px;
   margin-bottom: 50px;
 }
@@ -192,6 +195,7 @@ a{
 .about-content-right {
   align-items: flex-start;
   padding: 30px;
+  margin-left: 100px;
 }
 
 .about-content-right h1 {
