@@ -4,34 +4,6 @@ import "./resume.css";
 const Resume = () => {
   return (
     <body>
-      <section class="navbar-section">
-        <a class="navbar-heading" href="/">
-          Anant Mishra
-        </a>
-        <div>
-          <ul>
-            <li>
-              <a href="#" class="current">
-                Resume
-              </a>
-            </li>
-            <li>
-              <a href="../projects/">Projects</a>
-            </li>
-            <li>
-              <a href="https://medium.com/@mishraanant" target="_blank">
-                Blogs
-              </a>
-            </li>
-            <li>
-              <a href="./">Playground</a>
-            </li>
-            <li>
-              <a href="../contact/">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </section>
       <section class="resume-section">
         <div class="resume-heading-container">
           <h1 class="resume-heading">Resume</h1>

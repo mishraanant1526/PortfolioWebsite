@@ -4,34 +4,6 @@ import "./contact.css";
 const Contact = () => {
   return (
     <body>
-      <section class="navbar-section">
-        <a class="navbar-heading" href="/">
-          Anant Mishra
-        </a>
-        <div>
-          <ul>
-            <li>
-              <a href="../resume/">Resume</a>
-            </li>
-            <li>
-              <a href="../projects/">Projects</a>
-            </li>
-            <li>
-              <a href="https://medium.com/@mishraanant" target="_blank">
-                Blogs
-              </a>
-            </li>
-            <li>
-              <a href="./">Playground</a>
-            </li>
-            <li>
-              <a href="#" class="current">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
       <section class="contact-section">
         <div class="resume-heading-container">
           <h1 class="contact-heading">Let's talk</h1>

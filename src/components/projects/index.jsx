@@ -4,34 +4,6 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div>
-      <section className="navbar-section">
-        <a class="navbar-heading" href="/">
-          Anant Mishra
-        </a>
-        <div>
-          <ul>
-            <li>
-              <a href="../resume/">Resume</a>
-            </li>
-            <li>
-              <a href="#" className="current">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a href="./">Playground</a>
-            </li>
-            <li>
-              <a href="https://medium.com/@mishraanant" target="_blank">
-                Blogs
-              </a>
-            </li>
-            <li>
-              <a href="../contact/">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </section>
       <section className="projects-section">
         <div className="projects-heading">
           <h1 className="project-heading">Projects</h1>
