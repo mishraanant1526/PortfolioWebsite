@@ -116,7 +116,7 @@ a {
 
 .about-content-line {
   height: 1.5px;
-  width: 50px;
+  width: 100%;
   border-radius: 20px;
   background-color: #0135ab;
   margin-bottom: 10px;
