@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
 body {
   font-family: Montserrat;
@@ -10,61 +10,8 @@ a {
   color: black;
 }
 
-.navbar-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-  position: sticky;
-  top: 0;
-  left: 0;
-  background-color: white;
-  width: 100%;
-  padding: 2% 0px;
-  z-index: 50;
-}
-
-.navbar-section > div > ul {
-  display: flex;
-  list-style: none;
-}
-
-.navbar-heading {
-  margin-left: 4%;
-}
-
-.navbar-section > div {
-  margin-right: 3%;
-}
-
-.navbar-heading > span {
-  font-weight: 200;
-  font-size: 18px;
-}
-
-.navbar-heading:before {
-  content: "";
-  border: 1px solid black;
-  font-weight: bold;
-  display: inline-block;
-  width: 7px;
-  height: 7px;
-  background-color: #0135ab;
-  margin-right: 17px;
-  margin-bottom: 5px;
-  transform: scale(2.5);
-  border-radius: 3px;
-  box-shadow: 0px 1px 2px 0.5px rgba(0, 0, 0, 0.4);
-}
-
 .current {
   color: #0135ab;
-}
-
-.navbar-section > div > ul > li {
-  margin-right: 20px;
-  font-size: 17px;
-  text-transform: uppercase;
 }
 
 .projects-section {
@@ -80,7 +27,6 @@ a {
 
 .project-heading {
   font-size: 30px;
-  
 }
 
 .project-heading::before {
@@ -99,7 +45,6 @@ a {
 }
 
 .projects-section > p {
-  
   font-size: 17px;
   width: 40%;
   text-align: center;
@@ -122,14 +67,14 @@ a {
 
 .projects-card-title {
   margin: 0px;
-  
+
   color: #0135ab;
   font-weight: 800;
 }
 
 .projects-card-subtitle {
   margin: 5px 0px 0px;
-  
+
   font-size: 16px;
 }
 
@@ -142,7 +87,7 @@ a {
 
 .projects-card-paragraph {
   font-size: 17px;
-  
+
   padding: 30px;
   line-height: 25px;
   letter-spacing: 1px;
@@ -167,7 +112,6 @@ a {
 
 .copyright {
   margin: 0px;
-  
 }
 
 .footer-inner-container {

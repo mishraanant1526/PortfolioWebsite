@@ -4,33 +4,6 @@ import "./home.css";
 const Home = () => {
   return (
     <div>
-      <section className="navbar-section">
-        <a class="navbar-heading" href="/">
-          Anant Mishra
-        </a>
-        <div>
-          <ul>
-            <li>
-              <a href="./resume/">Resume</a>
-            </li>
-            <li>
-              <a href="./projects/">Projects</a>
-            </li>
-            <li>
-              <a href="https://medium.com/@mishraanant" target="_blank">
-                Blogs
-              </a>
-            </li>
-            <li>
-              <a href="./">Playground</a>
-            </li>
-            <li>
-              <a href="./contact/">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
       <section className="hero-section">
         <h1 className="hero-heading">Grow Your Vision</h1>
         <p className="hero-para">
