@@ -12,15 +12,17 @@ const Projects = () => {
         "Launched ecommerce website and application with better UI and helped the marketing team acquire first 100+ customers.",
       ],
       image: "../assets/Momento.png",
+      link: "https://www.momento.ink/",
     },
     {
-      title: "SRMIIEC",
+      title: "SRMIIEC & Fablab",
       subtitle: "(MERN Stack)",
       description: [
         "Led a team of 3 to build websites on full stack for Incubation Center and Fabrication Lab using JavaScript and MongoDB.",
         "Integrated payment portal and created a database for 540 students by providing each student their portal to issue tools from the fabrication lab. Created a test bench for the fabrication lab to test the tools with a test success rate of around 68%",
       ],
       image: "../assets/srmiiec.png",
+      link: "https://www.srmiiec.com/",
     },
     {
       title: "Gamified platform for Aspiring Managers",
@@ -29,7 +31,8 @@ const Projects = () => {
         "Researched in the area of client and market growth to look for specific consumer needs, collaborated with a team of 5 to create the most optimal UI and a full-stack web game that enables teams to engage in gameplay while they brew their coffee, which increased their efficiency.",
         "Offered a gamified digital solution to assess and raise potential managers' EQ. Educated clients about the usage of platform and gained satisfaction rate on the new learning platform.",
       ],
-      image: "../assets/Fablab.png",
+      image: "../assets/del.jpg",
+      link: "",
     },
     {
       title: "Sentiment Analysis of a company in the market",
@@ -39,6 +42,7 @@ const Projects = () => {
         "Successfully compared the algorithms with 83% accuracy and 86% precision for RoBERTa and 79% accuracy and 82.5% precision for distilRoBERTa.",
       ],
       image: "../assets/senti.jpeg",
+      link: "",
     },
   ];
 
@@ -50,7 +54,12 @@ const Projects = () => {
         </div>
 
         {data.map((item) => (
-          <div className="projects-card-container">
+          <div
+            className="projects-card-container"
+            onClick={() =>
+              item.link ? (window.location.href = item.link) : null
+            }
+          >
             <div className="projects-card-left">
               <div className="projects-card-heading">
                 <h1 className="projects-card-title">{item.title}</h1>

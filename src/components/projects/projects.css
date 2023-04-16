@@ -51,6 +51,12 @@ a {
   letter-spacing: 1px;
 }
 
+.projects-card-container:hover {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+  scale: 1.01;
+  cursor: pointer;
+}
+
 .projects-card-container {
   background-color: white;
   width: 85%;
