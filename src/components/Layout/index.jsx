@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
     <div className={styles.container}>
       <section className={styles.navSection}>
         <a class="navbar-heading" href="/" className={styles.header}>
-          <img src={"/public/logo.png"} />
+          <img src={"/assets/logo.png"} alt="Logo" />
         </a>
         <div className={styles.links}>
           <a href="./resume/">Resume</a>
@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
         </div>
         <div className={styles.footer}>
           <a href="mailto: mishraanant1526@gmail.com">
-            <img src={"/public/mailIcon.png"} width="25" alt="" />
+            <img src={"/assets/mailIcon.png"} width="25" alt="" />
           </a>
           <a href="">
             <img
