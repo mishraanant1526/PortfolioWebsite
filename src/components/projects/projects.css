@@ -53,11 +53,12 @@ a {
 
 .projects-card-container {
   background-color: white;
-  width: 50%;
+  width: 85%;
   display: flex;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
   margin: 30px 0px;
   padding: 2% 1%;
+  height: 400px;
 }
 
 .projects-card-heading {
@@ -86,7 +87,7 @@ a {
 }
 
 .projects-card-paragraph {
-  font-size: 17px;
+  font-size: 18px;
 
   padding: 30px;
   line-height: 25px;

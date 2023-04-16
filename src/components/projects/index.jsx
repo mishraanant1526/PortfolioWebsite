@@ -2,6 +2,46 @@ import React from "react";
 import "./projects.css";
 
 const Projects = () => {
+  const data = [
+    {
+      title: "Momento LLC",
+      subtitle: "A Shopify Application for the framing industry",
+      description: [
+        "Brainstormed with product lead on the market for the framing industry. Conducted 90+ customer interviews and 1000+ surveys.",
+        "Facilitated an Agile working environment using Jira and Kanban for 4 engineers to begin production of eCommerce platforms using PERN stack and helped leadership in product pricing and positioning.",
+        "Launched ecommerce website and application with better UI and helped the marketing team acquire first 100+ customers.",
+      ],
+      image: "../assets/Momento.png",
+    },
+    {
+      title: "SRMIIEC",
+      subtitle: "(MERN Stack)",
+      description: [
+        "Led a team of 3 to build websites on full stack for Incubation Center and Fabrication Lab using JavaScript and MongoDB.",
+        "Integrated payment portal and created a database for 540 students by providing each student their portal to issue tools from the fabrication lab. Created a test bench for the fabrication lab to test the tools with a test success rate of around 68%",
+      ],
+      image: "../assets/srmiiec.png",
+    },
+    {
+      title: "Gamified platform for Aspiring Managers",
+      subtitle: "(HTML, CSS, JavaScript, jQuery, SharePoint)",
+      description: [
+        "Researched in the area of client and market growth to look for specific consumer needs, collaborated with a team of 5 to create the most optimal UI and a full-stack web game that enables teams to engage in gameplay while they brew their coffee, which increased their efficiency.",
+        "Offered a gamified digital solution to assess and raise potential managers' EQ. Educated clients about the usage of platform and gained satisfaction rate on the new learning platform.",
+      ],
+      image: "../assets/Fablab.png",
+    },
+    {
+      title: "Sentiment Analysis of a company in the market",
+      subtitle: " (BERT, Bertweet, Roberta, Distil Roberta)",
+      description: [
+        "Build an algorithm that conducts Sentiment Analysis using Bert, Bertweet, DistilRoberta and Roberta. Compared all the algorithms using the Sentiment140 Dataset with 1,600,000 tweets extracted using the twitter API to get the most efficient output.",
+        "Successfully compared the algorithms with 83% accuracy and 86% precision for RoBERTa and 79% accuracy and 82.5% precision for distilRoBERTa.",
+      ],
+      image: "../assets/senti.jpeg",
+    },
+  ];
+
   return (
     <div>
       <section className="projects-section">
@@ -9,70 +49,24 @@ const Projects = () => {
           <h1 className="project-heading">Projects</h1>
         </div>
 
-        <div className="projects-card-container">
-          <div className="projects-card-left">
-            <div className="projects-card-heading">
-              <h1 className="projects-card-title">Momento LLC</h1>
-              <h2 className="projects-card-subtitle">
-                A Shopify Application for the framing industry{" "}
-              </h2>
+        {data.map((item) => (
+          <div className="projects-card-container">
+            <div className="projects-card-left">
+              <div className="projects-card-heading">
+                <h1 className="projects-card-title">{item.title}</h1>
+                <h2 className="projects-card-subtitle">{item.subtitle}</h2>
+              </div>
+              <div className="projects-card-paragraph">
+                {item.description.map((item) => (
+                  <p>{item}</p>
+                ))}
+              </div>
             </div>
-            <div className="projects-card-paragraph">
-              <p>
-                With a Team of 4, developed a complete ecommerce website with
-                APIs to update content through an admin dashboard. using React
-                JS, Node JS and PostgreSQL. Integrated with Square-up for
-                payment portal. Deployed in an EC2 server.
-              </p>
-            </div>
-          </div>
-          <div className="projects-card-right">
-            <img style={{ height: "50%" }} src="../assets/Momento.png" alt="" />
-            <img
-              style={{ height: "50%" }}
-              src="../assets/Momento-banner.png"
-              alt="hello"
-            />
-          </div>
-        </div>
-
-        <div className="projects-card-container">
-          <div className="projects-card-left">
-            <div className="projects-card-heading">
-              <h1 className="projects-card-title">SRMIIEC</h1>
-              <h2 className="projects-card-subtitle">Product Manager</h2>
-            </div>
-            <div className="projects-card-paragraph">
-              <p>
-                With a team of 3 built dynamic websites on full stack for
-                Incubation Center and Fabrication Lab using JavaScript and
-                MongoDB
-              </p>
+            <div className="projects-card-right">
+              <img style={{ height: "100%" }} src={item.image} alt="" />
             </div>
           </div>
-          <div className="projects-card-right">
-            <img src="../assets/srmiiec.png" alt="hello" />
-          </div>
-        </div>
-
-        <div className="projects-card-container">
-          <div className="projects-card-left">
-            <div className="projects-card-heading">
-              <h1 className="projects-card-title">FabLab</h1>
-              <h2 className="projects-card-subtitle">Product Manager</h2>
-            </div>
-            <div className="projects-card-paragraph">
-              <p>
-                With a team of 3 built dynamic websites on full stack for
-                Incubation Center and Fabrication Lab using JavaScript and
-                MongoDB
-              </p>
-            </div>
-          </div>
-          <div className="projects-card-right">
-            <img src="../assets/Fablab.png" alt="hello" />
-          </div>
-        </div>
+        ))}
       </section>
 
       <section className="footer-section">
