@@ -9,13 +9,13 @@ const Layout = ({ children }) => {
           <img src={"/assets/logo.png"} alt="Logo" />
         </a>
         <div className={styles.links}>
-          <a href="./resume/">Resume</a>
-          <a href="./projects/">Projects</a>
+          <a href="/resume">Resume</a>
+          <a href="/projects">Projects</a>
           <a href="https://medium.com/@mishraanant" target="_blank">
             Blogs
           </a>
-          <a href="./">Playground</a>
-          <a href="./contact/">Contact</a>
+          <a href="/">Playground</a>
+          <a href="/contact">Contact</a>
         </div>
         <div className={styles.footer}>
           <a href="mailto: mishraanant1526@gmail.com">
