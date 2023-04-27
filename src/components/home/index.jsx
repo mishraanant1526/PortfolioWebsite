@@ -4,15 +4,6 @@ import "./home.css";
 const Home = () => {
   return (
     <div>
-      <section className="hero-section">
-        <h1 className="hero-heading">Grow Your Vision</h1>
-        <p className="hero-para">
-          Welcome visitors to your site with a short, engaging introduction.
-        </p>
-        <p className="hero-para">Double click to edit and add your own text.</p>
-        <button className="hero-button">Start Now</button>
-      </section>
-
       <section className="about-section">
         <div className="about-content-container">
           <div>
@@ -37,8 +28,7 @@ const Home = () => {
               </a>
               <a
                 href="https://www.linkedin.com/in/anant-mishra-639707172/"
-                target="_blank"
-              >
+                target="_blank">
                 <img
                   src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png"
                   alt=""
