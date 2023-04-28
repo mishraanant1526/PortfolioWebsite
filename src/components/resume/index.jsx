@@ -102,7 +102,7 @@ const Resume = () => {
       <section class="skillset-section">
         <div class="skillset-content-container">
           <h1>Professional skillset</h1>
-          <div class="skills-content above">
+          <div class="skills-content above" style={{ marginLeft: 40 }}>
             <div>
               <ul>
                 <li>Entrepreneurial Mindset</li>
@@ -119,14 +119,14 @@ const Resume = () => {
           </div>
           <h1>Languages</h1>
           <div class="skills-content">
-            <div>
+            <div style={{ marginLeft: 40 }}>
               <ul>
                 <li>English(Native)</li>
                 <li>Spanish(Proficient)</li>
               </ul>
             </div>
             <div>
-              <ul>
+              <ul style={{ marginLeft: 28 }}>
                 <li>French(Proficient)</li>
               </ul>
             </div>

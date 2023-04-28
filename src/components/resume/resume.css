@@ -51,15 +51,23 @@ a {
   width: 48%;
 }
 
+.resume-experience-container h1 {
+  margin-bottom: 35px;
+}
+
 .resume-button {
   color: white;
   background-color: #0135ab;
   border: none;
-  padding: 5px;
+  padding: 7px 20px;
   text-transform: uppercase;
-  font-size: 24px;
-  box-shadow: 0px 10px 10px -5px black;
+  font-size: 15px;
+  box-shadow: 0px 7px 5px -5px black;
   transition: all 0.2s linear;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 .resume-button:hover {
@@ -71,9 +79,8 @@ a {
   display: flex;
   width: 40%;
   padding: 2% 4%;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4);
-  background-image: linear-gradient(#e6e4e2, #fefffe);
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(#fefffe, #e6e4e2);
   border-radius: 5px;
   margin: 1% 0px 2%;
 }
@@ -91,13 +98,12 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 15% 0px 5%;
 }
 
 .position-time {
   font-size: 22px;
   color: rgb(0, 53, 170);
-  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.507);
+  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .resume-card-left-container p {
@@ -114,7 +120,7 @@ a {
   align-items: center;
   width: 100%;
   background-color: #e6dbcf;
-  padding: 0px 0px 5%;
+  padding: 6% 0px 6%;
 }
 
 .skillset-section ul {
@@ -124,10 +130,10 @@ a {
 
 .skillset-content-container {
   background-image: linear-gradient(#e3e1dc, #f8f6f3, #f8f6f3);
-  width: 40%;
+  width: 55%;
   padding: 3% 4%;
   border-radius: 8px;
-  box-shadow: 0px 4px 10px 1px black;
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
 }
 
 .skillset-content-container h1 {
@@ -164,7 +170,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2% 3% 4%;
 }
 
 .copyright {
